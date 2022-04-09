@@ -1,0 +1,16 @@
+<h1>{{ nome }}</h1>
+<dl>
+    <td>Nome</td>
+    <dd>{{nome}}</dd>
+
+    <td>Idade</td>
+    <dd>{{idade}}</dd>
+
+    <td>by Function</td>
+    <dd>{{obterNome()}}</dd>
+
+    <td>by Get</td>
+    <dd>{{nomeMaiusculo}}</dd>
+</dl>
+<button (click)="mudarNome()">Mudar Herói</button>
+<button (click)="mudarIdade()">Mudar Idade</button>
